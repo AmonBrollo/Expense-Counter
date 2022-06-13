@@ -21,7 +21,7 @@ def get_expense():
     category = input("What is the category of the expense? ")
     # asks for the value of the expense.
     expense_value = float(input("What is the value of the expense? "))
-    return category, expense_value
+    return categoryy, expense_value
 
 def organizer(cat, val):
     """
